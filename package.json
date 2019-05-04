@@ -1,6 +1,6 @@
 {
   "name": "@xibang/redis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redis封装优化",
   "main": "src/index.js",
   "engines": {
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airdwing/node-xibang-redis.git"
+    "url": "https://github.com/xibang/node-redis.git"
   },
   "keywords": [
     "api",
@@ -47,9 +47,9 @@
   "author": "Willin Wang",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/airdwing/node-xibang-redis/issues"
+    "url": "https://github.com/xibang/node-redis/issues"
   },
-  "homepage": "https://github.com/airdwing/node-xibang-redis#readme",
+  "homepage": "https://github.com/xibang/node-redis#readme",
   "dependencies": {
     "@xibang/node-common": "*",
     "redis": "*",
