@@ -1,17 +1,17 @@
-# Dwing Redis
+# Xibang Redis
 
-[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Follow)](https://github.com/willin) [![npm](https://img.shields.io/npm/v/@dwing/redis.svg)](https://npmjs.org/package/@dwing/redis) [![npm](https://img.shields.io/npm/dt/@dwing/redis.svg)](https://npmjs.org/package/@dwing/redis) [![codecov](https://codecov.io/gh/AirDwing/node-dwing-redis/branch/master/graph/badge.svg)](https://codecov.io/gh/AirDwing/node-dwing-redis) [![Travis-CI](https://travis-ci.org/AirDwing/node-dwing-redis.svg?branch=master)](https://travis-ci.org/AirDwing/node-dwing-redis) [![codebeat badge](https://codebeat.co/badges/9a510e01-2f09-4112-86c7-4dc780d868c5)](https://codebeat.co/projects/github-com-airdwing-node-dwing-redis-master)
+[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Follow)](https://github.com/willin) [![npm](https://img.shields.io/npm/v/@xibang/redis.svg)](https://npmjs.org/package/@xibang/redis) [![npm](https://img.shields.io/npm/dt/@xibang/redis.svg)](https://npmjs.org/package/@xibang/redis)
 
 ## 安装
 
 ```
-yarn add @dwing/redis
+yarn add @xibang/redis
 ```
 
 ## ES7 使用
 
 ```js
-const redis = require('@dwing/redis');
+const redis = require('@xibang/redis');
 
 const client = redis({
   host: '127.0.0.1',
@@ -43,7 +43,7 @@ const client = redis({
 ## Subscribe / Publish
 
 ```js
-const redis = require('@dwing/redis');
+const redis = require('@xibang/redis');
 
 // 需要不同的配置以保证连接不被复用。
 const sub = redis({ test: 1 }).client;

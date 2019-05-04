@@ -44,9 +44,9 @@
   dependencies:
     arrify "^1.0.1"
 
-"@dwing/common@*":
+"@xibang/common@*":
   version "1.0.0"
-  resolved "http://registry.npm.taobao.org/@dwing/common/download/@dwing/common-1.0.0.tgz#f2d8b4c9c926a2e8223d011557f4f47f3e55be90"
+  resolved "http://registry.npm.taobao.org/@xibang/common/download/@xibang/common-1.0.0.tgz#f2d8b4c9c926a2e8223d011557f4f47f3e55be90"
   dependencies:
     uuid "*"
 
@@ -1293,9 +1293,9 @@ eslint-config-airbnb-base@^11.2.0:
   dependencies:
     eslint-restricted-globals "^0.1.1"
 
-eslint-config-dwing@^1.1.0:
+eslint-config-xibang@^1.1.0:
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-dwing/-/eslint-config-dwing-1.1.0.tgz#f8d184fa7d20393f0542791d098684bd14005647"
+  resolved "https://registry.yarnpkg.com/eslint-config-xibang/-/eslint-config-xibang-1.1.0.tgz#f8d184fa7d20393f0542791d098684bd14005647"
   dependencies:
     eslint "^3.19.0"
     eslint-config-airbnb-base "^11.2.0"

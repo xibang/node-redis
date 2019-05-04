@@ -1,6 +1,6 @@
 const { list } = require('redis-commands');
 const redis = require('redis');
-const { md5 } = require('@dwing/common');
+const { md5 } = require('@xibang/node-common');
 const { promisify } = require('util');
 
 // SELECT FOR SPECIAL TREATMENT
@@ -24,7 +24,7 @@ module.exports = function createRedisClient(options = {}, logger = console.log) 
       db[key][selectedDB].select(selectedDB || 0);
       /* istanbul ignore next */
       db[key][selectedDB].on('error', (err) => {
-        logger('dwing:redis:client', err);
+        logger('xibang:redis:client', err);
         db[key][selectedDB] = null;
       });
     }

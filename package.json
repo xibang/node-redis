@@ -1,5 +1,5 @@
 {
-  "name": "@dwing/redis",
+  "name": "@xibang/redis",
   "version": "2.0.2",
   "description": "Redis封装优化",
   "main": "src/index.js",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airdwing/node-dwing-redis.git"
+    "url": "https://github.com/airdwing/node-xibang-redis.git"
   },
   "keywords": [
     "api",
@@ -47,11 +47,11 @@
   "author": "Willin Wang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airdwing/node-dwing-redis/issues"
+    "url": "https://github.com/airdwing/node-xibang-redis/issues"
   },
-  "homepage": "https://github.com/airdwing/node-dwing-redis#readme",
+  "homepage": "https://github.com/airdwing/node-xibang-redis#readme",
   "dependencies": {
-    "@dwing/common": "*",
+    "@xibang/node-common": "*",
     "redis": "*",
     "redis-commands": "*"
   },
@@ -59,7 +59,7 @@
     "ava": "^0.22.0",
     "codecov": "^2.3.0",
     "eslint": "^4.7.0",
-    "eslint-config-dwing": "^1.1.0",
+    "eslint-config-willin": "*",
     "nyc": "^11.2.1"
   }
 }
