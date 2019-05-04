@@ -72,7 +72,7 @@ sub.subscribe('a nice channel');
 
 ## License
 
-MIT
+Apache 2.0
 
 通过支付宝捐赠：
 

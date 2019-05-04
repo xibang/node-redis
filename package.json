@@ -45,7 +45,7 @@
     "cache"
   ],
   "author": "Willin Wang",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/airdwing/node-xibang-redis/issues"
   },
