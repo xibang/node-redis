@@ -1,6 +1,6 @@
 {
   "name": "@xibang/redis",
-  "version": "2.0.2",
+  "version": "1.0.0",
   "description": "Redis封装优化",
   "main": "src/index.js",
   "engines": {

@@ -1,6 +1,6 @@
 # Xibang Redis
 
-[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Follow)](https://github.com/willin) [![npm](https://img.shields.io/npm/v/@xibang/redis.svg)](https://npmjs.org/package/@xibang/redis) [![npm](https://img.shields.io/npm/dt/@xibang/redis.svg)](https://npmjs.org/package/@xibang/redis)
+[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Followers)](https://github.com/willin) [![npm](https://img.shields.io/npm/v/@xibang/redis.svg)](https://npmjs.org/package/@xibang/redis) [![npm](https://img.shields.io/npm/dt/@xibang/redis.svg)](https://npmjs.org/package/@xibang/redis) [![codecov](https://codecov.io/gh/xibang/node-redis/branch/master/graph/badge.svg)](https://codecov.io/gh/xibang/node-redis) [![codebeat badge](https://codebeat.co/badges/bf602cde-5250-4d0d-9a96-54df3dd291fd)](https://codebeat.co/projects/github-com-xibang-node-redis-master) [![Build Status](https://travis-ci.org/xibang/node-redis.svg?branch=master)](https://travis-ci.org/xibang/node-redis)
 
 ## 安装
 
